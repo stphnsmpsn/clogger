@@ -12,7 +12,7 @@ A skeleton for a custom implementation is provided and can be implemented as you
 
 ## Installation
 
-Simple run `./build.sh` to build and install this library on your linux system. 
+A convenience script is provided to build and create the library using GCC and move files to their proper locations. Simply run `./build.sh` to build and install this library on your linux system. 
 
 ## Usage 
 
