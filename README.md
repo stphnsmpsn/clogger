@@ -6,7 +6,7 @@ A Simple Logging Library for C.
 
 libclogger supports standard logging levels (Finest, Finer, Fine, Info, Warning, and Critical), and has the ability to set the level of the active Clogger implementation. Log levels are enumerated in contant case and prefixed with `CLOGLVL_`. 
 
-The provided sample implementation, PrintfCloggerImplementation, will drop all log records finer than it's internal setting. This means, setting the Clogger level to Info means all log records with levels Є {CLOGLVL_FINE, CLOGLVL_FINER, CLOGLVL_FINEST} will be dropped. 
+The provided sample implementation, PrintfCloggerImplementation, will drop all log records finer than it's internal setting. This means, setting the Clogger level to Info means all log records with levels `CLOGLVL_FINE`, `CLOGLVL_FINER`, `CLOGLVL_FINEST` will be dropped. 
 
 A skeleton for a custom implementation is provided and can be implemented as you see fit and assigned at runtime using `SetClogger(GetClogger)`. 
 
